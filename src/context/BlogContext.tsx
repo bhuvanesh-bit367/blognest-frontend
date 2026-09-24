@@ -94,7 +94,9 @@ export const BlogProvider: React.FC<{ children: React.ReactNode }> = ({ children
 }): Promise<Blog> => {
   const token = localStorage.getItem('blognest_token');
 
-  const response = await fetch('', {
+  const response = await fetch(
+  'https://blognest-backend-m7hi.onrender.com/api/blogs',
+  {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
