@@ -1,0 +1,6 @@
+{
+  "name": "BlogNest",
+  "description": "A simple, clean, frontend-only blogging website built with React and Vite. No backend, no database, no external APIs — mock data only.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
